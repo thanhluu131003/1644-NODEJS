@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;  /*độ cao bé nhất của body*/
+
+}
+#search-box {
+    background: #edafdc;
+    border-radius: 30px;    /*đường viền bo góc tròn*/
+}
+#search-box #search-text {
+    border: none;
+    outline: none;
+    background: none;
+    padding: 10px 15px;
+    font-size: 18px;
+}
+#search-box #search-btn{
+    background-color: #edafdc;
+    cursor:  pointer; /*hiện icon bàn tay khi nhấp chuột*/
+    border: none;
+    padding: 14px;
+    border-radius: 50px;    /*đường viền bo góc tròn*/
+}
